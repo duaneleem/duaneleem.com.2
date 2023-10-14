@@ -23,6 +23,7 @@ const metadata = {
         { text: 'Home', href: '#' },
         { text: 'About', href: '#about' },
         { text: 'Resume', href: '#resume' },
+        { text: 'Education', href: '#education' },
         { text: 'Porfolio', href: '#porfolio' },
         { text: 'Blog', href: 'https://blog.duaneleem.com/' },
         { text: 'Github', href: 'https://github.com/duaneleem' },
@@ -45,10 +46,13 @@ const metadata = {
     id="hero"
     title="Duane Leem"
     tagline="Machine Learning DevOps Engineer"
-    actions={[{ variant: "primary", target: '', text: 'Contact Me', href: 'https://blog.duaneleem.com/contact-duane/' }]}
+    actions={[{ variant: "primary", target: '', text: 'About Me', href: '#about' }]}
   >
     <Fragment slot="subtitle">
-      With over two decades in IT, I've been a key resource in managing complex systems and developing diverse software applications. Specialized in Software Engineering and Project Management, my career showcases a rich timeline of milestones that reflect my expertise in the IT landscape.
+      With over two decades in IT, I've been a key resource in managing complex systems and 
+      developing diverse software applications. Specialized in Software Engineering and 
+      Project Management, my career showcases a rich timeline of milestones that reflect 
+      my expertise in the IT landscape.
     </Fragment>
   </Hero>
 
@@ -58,6 +62,14 @@ const metadata = {
     id="about"
     columns={3}
     items={[
+      {
+        icon: 'tabler:brand-github',
+        callToAction: {
+          target: '_blank',
+          text: 'GitHub',
+          href: 'https://github.com/duaneleem',
+        },
+      },
       {
         icon: 'tabler:brand-linkedin',
         callToAction: {
@@ -77,7 +89,7 @@ const metadata = {
     ]}
     image={{
       src: 'https://blog.duaneleem.com/wp-content/uploads/2023/10/Profile-20230718-Duane-Leem.jpeg',
-      alt: 'Colorful Image',
+      alt: 'Duane Leem, PMP',
     }}
   >
     <Fragment slot="content">
@@ -108,37 +120,28 @@ const metadata = {
     title="Work experience"
     items={[
       {
-        title:
-          'Senior DevOps Manager<br /> <span class="font-normal">Warrior Trading, San Francisco Bay Area, CA</span> <br /> <span class="text-sm font-normal">2022 - Present</span>',
+        title:`
+          Senior DevOps Manager <span class="text-sm font-normal">(2022 - 2023)</span> <br />
+          <ul class="dl-steps-li-previous-roles">
+            <li><span class="font-normal">Lead DevOps Engineer <span class="text-sm font-normal">(2018 - 2022)</span></span></li>
+          </ul>
+          <span class="font-normal">Warrior Trading, San Francisco Bay Area, CA</span> <br />
+          <span class="text-sm font-normal">2018 - Present</span>
+        `,
         description: `As a Senior DevOps Engineer at Warrior Trading, I lead AWS & Kubernetes initiatives to enhance server performance. Proficient in multiple technologies, my focus is on automating software delivery through Jenkins, Ansible, and Terraform. Committed to innovation, I ensure high availability and quick deployments.`,
         icon: 'tabler:briefcase',
       },
       {
-        title:
-          'Lead DevOps Engineer<br /> <span class="font-normal">Warrior Trading, San Francisco Bay Area, CA</span> <br /> <span class="text-sm font-normal">2018 - 2022</span>',
-        description: `At Warrior Trading, I'm a DevOps Engineer focused on optimizing server performance and engineering solutions. Specializing in AWS, Kubernetes, NodeJS, and Golang, I work to ensure our infrastructure is scalable and reliable. I automate processes like CI/CD using Jenkins, Ansible, and Terraform, enhancing website security and efficiency. My mission is to drive automation and streamline IT processes, allowing the team to focus on web infrastructure improvement with a DevOps-first approach.`,
-        icon: 'tabler:briefcase',
-      },
-      {
         title: `
-          <style>
-            .dl-li-previous-roles {
-              margin-left: 10px;
-              list-style-type: "»";
-              padding-left: 5px;
-              text-indent: 10px;
-            }
-          </style>
-
-          Chief Technology Officer <span class="text-sm font-normal">(2014- 2018)</span> <br />
-          <ul class="dl-li-previous-roles">
-            <li><span class="font-normal">Director of Technology <span class="text-sm font-normal">(2010- 2014)</span></span></li>
+          Chief Technology Officer <span class="text-sm font-normal">(2014 - 2018)</span> <br />
+          <ul class="dl-steps-li-previous-roles">
+            <li><span class="font-normal">Director of Technology <span class="text-sm font-normal">(2010 - 2014)</span></span></li>
             <li><span class="font-normal">Lead Web Developer</span> <span class="text-sm font-normal">(2006 - 2010)</span></li>
             <li><span class="font-normal">Network Administrator</span> <span class="text-sm font-normal">(2006)</span></li>
           </ul>
           <span class="font-normal">Staged Homes, San Francisco Bay Area, CA</span> <br /> <span class="text-sm font-normal">2006 - 2018</span>
         `,
-        description: `As an IT Manager, I've led projects from concept to completion, utilizing tech resources like AWS, Google 
+        description: `As the Software Engineering Manager, I've led projects from concept to completion, utilizing tech resources like AWS, Google 
           Cloud, and Docker. Specialized in digital product development, I've used Photoshop, Sketch, Bootstrap, Angular, and 
           Agile methodologies to deliver impactful UI/UX designs. At Staged Homes, I've reduced costs by migrating to cloud 
           solutions and enhanced marketing strategies using SalesForce and other tools. I've automated business processes and 
@@ -152,7 +155,7 @@ const metadata = {
   <!-- Steps Widget ****************** -->
 
   <Steps
-    id="resume"
+    id="education"
     title="Education"
     items={[
       {
@@ -188,45 +191,45 @@ const metadata = {
 
   <Features3
     title="Skills"
-    subtitle="Discover the proficiencies that allow me to bring imagination to life through design."
+    subtitle="Discover the proficiencies that allow me to bridge technology teamwork and innovation."
     columns={3}
     defaultIcon="tabler:point-filled"
     items={[
       {
-        title: 'Graphic design',
-        description: 'Proficient in crafting visually appealing designs that convey messages effectively.',
+        title: 'CI/CD Pipelines',
+        description: `Safely automate the transition of code from development to production.`,
       },
       {
-        title: 'Branding and identity',
-        description: 'Skilled at developing cohesive brand identities, including logos and brand guidelines.',
+        title: 'Microservices',
+        description: `Build microservices to fortify our application architecture and meet organizational objectives.`,
       },
       {
-        title: 'User-centered design',
-        description: 'Experienced in creating user-friendly interfaces and optimizing user experiences.',
+        title: 'Kubernetes',
+        description: `Manage Kubernetes clusters to deliver scalable, resilient, and high-performance solutions`,
       },
       {
-        title: 'Adobe Creative Suite',
-        description: 'Skilled in using Photoshop, Illustrator, and InDesign to create and edit visual elements.',
+        title: 'Serverless Architecture',
+        description: `Leverage serverless technology to minimize infrastructure overhead and accelerate time-to-market.`,
       },
       {
-        title: 'Typography',
-        description: 'Adept in selecting and manipulating typefaces to enhance design aesthetics.',
+        title: 'Terraform Cloud Solutions',
+        description: `Architect cloud infrastructures using Terraform to align with organizational scalability and security goals.`,
       },
       {
-        title: 'Color theory',
-        description: 'Proficient in using color to evoke emotions and enhance visual harmony.',
+        title: 'Agile Project Management',
+        description: `Drive Agile Project Management initiatives to enhance team productivity and fulfill organizational goals.`,
       },
       {
-        title: 'Print and digital design',
-        description: 'Knowledgeable in designing for both print materials and digital platforms.',
+        title: 'E-Commerce Platforms',
+        description: `Manage e-commerce stability and payment security across organizational platforms.`,
       },
       {
-        title: 'Attention to detail',
-        description: 'Diligent in maintaining precision and quality in all design work.',
+        title: 'Integrate Marketing Platforms',
+        description: `Seamlessly integrate key marketing platforms like Marketo, Salesforce, and ClickFunnels with core organizational systems.`,
       },
       {
         title: 'Adaptability',
-        description: 'Quick to adapt to new design trends, technologies, and client preferences.',
+        description: `Champion the organization's adaptability to technology changes, focusing on agility and business alignment.`,
       },
     ]}
   />
