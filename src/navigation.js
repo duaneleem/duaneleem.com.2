@@ -139,6 +139,7 @@ export const footerData = {
         { text: 'My DevOps Journey', href: 'https://blog.duaneleem.com/5-year-reflection-2023/' },
         { text: 'PHP Errors to Console', href: 'https://blog.duaneleem.com/output-php-errors-backend-console/' },
         { text: 'Install Minikube', href: 'https://blog.duaneleem.com/install-uninstall-minikube-ubuntu-22-04-2-lts/' },
+        { text: '2023 Word Weavers', href: 'https://blog.duaneleem.com/2023-word-weavers-officers/' },
       ],
     },
     {
