@@ -151,6 +151,7 @@ export interface Price {
 export interface Testimonial {
   title?: string;
   testimonial?: string;
+  read_more?: string;
   name?: string;
   job?: string;
   image?: string | unknown;
