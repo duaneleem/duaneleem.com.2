@@ -274,6 +274,54 @@ const metadata = {
   >
     <Fragment slot="content">
       <h3 class="text-2xl font-bold tracking-tight dark:text-white sm:text-3xl mb-2">
+        High Availability & Scalability<br /><span class="text-2xl">Using Kubernetes with WordPress</span>
+      </h3>
+    </Fragment>
+
+    <Fragment slot="bg">
+      <div class="absolute inset-0 bg-blue-50 dark:bg-transparent"></div>
+    </Fragment>
+  </Content>
+
+  <!-- Content Widget **************** -->
+
+  <Content
+    id="portfolio"
+    title="Visions Realized"
+    subtitle="Successfully navigating through complex project lifecycles, each initiative moved from ideation to completion. Leveraging Agile methodologies and DevOps practices, and benefiting from cross-functional team collaboration, every project met or exceeded quality and timeline expectations. This section showcases these accomplishments."
+    isReversed
+    items={[
+      {
+        title: 'Description:',
+        description: `
+          Suspendisse tincidunt dictum tincidunt. Aliquam erat volutpat. Duis pellentesque massa sed 
+          nisl tincidunt tincidunt. Nullam eu arcu turpis. Vivamus ultrices condimentum ante quis 
+          vestibulum. Mauris volutpat rhoncus mi, nec facilisis nisi posuere id. Quisque malesuada 
+         faucibus mauris non lacinia. Nam eget convallis metus.
+        `,
+      },
+      {
+        title: 'Role:',
+        description: `
+          Aenean vestibulum aliquet augue, a consectetur tortor maximus vitae. Nam ultrices lobortis 
+          justo, in fermentum lorem consequat eget. Sed auctor, purus et suscipit tristique, massa quam 
+          lacinia quam, ac elementum lacus eros ac elit. Fusce vestibulum mattis aliquet.
+        `,
+      },
+    ]}
+    image={{
+      src: 'https://images.unsplash.com/photo-1658248165252-71e116af1b34?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=928&q=80',
+      alt: 'Tech Design Image',
+    }}
+    callToAction={{
+      target: '_blank',
+      text: 'Go to the project',
+      icon: 'tabler:chevron-right',
+      href: '#',
+    }}
+  >
+    <Fragment slot="content">
+      <h3 class="text-2xl font-bold tracking-tight dark:text-white sm:text-3xl mb-2">
         Project Phoenix<br /><span class="text-2xl">Toastmasters Clubs that Last: A Future Blueprint.</span>
       </h3>
     </Fragment>
