@@ -10,7 +10,7 @@ import Testimonials from '~/components/widgets/Testimonials.astro';
 import Steps from '~/components/widgets/Steps.astro';
 import BlogLatestPosts from '~/components/widgets/BlogLatestPosts.astro';
 
-// import { Icon } from 'astro-icon/components';
+import { headerData } from '~/navigation';
 
 const metadata = {
   title: 'Duane Leem | DevOps Engineer',
@@ -20,26 +20,7 @@ const metadata = {
 <Layout metadata={metadata}>
   <Fragment slot="announcement"></Fragment>
   <Fragment slot="header">
-    <Header
-      links={[
-        { text: 'Home', href: '#' },
-        { text: 'About', href: '#about' },
-        { text: 'Resume', href: '#resume' },
-        { text: 'Education', href: '#education' },
-        { text: 'Portfolio', href: '#portfolio' },
-        { text: 'Blog', href: 'https://blog.duaneleem.com/' },
-        { text: '🔗 Github', href: 'https://github.com/duaneleem' },
-      ]}
-      actions={[
-        {
-          text: 'Contact Duane',
-          href: 'https://blog.duaneleem.com/contact-duane/',
-          target: '_blank'
-        },
-      ]}
-      isSticky
-      showToggleTheme
-    />
+    <Header {...headerData} isSticky showToggleTheme />
   </Fragment>
 
   <!-- Hero2 Widget ******************* -->
