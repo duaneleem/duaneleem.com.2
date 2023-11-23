@@ -7,7 +7,16 @@ export const headerData = {
     { text: 'Resume', href: '/#resume' },
     { text: 'Education', href: '/#education' },
     { text: 'Portfolio', href: '/#portfolio' },
-    { text: 'Blog', href: 'https://blog.duaneleem.com/' },
+    { text: 'Blog', links: [
+        {
+          text: 'Knowledgebase Blog',
+          href: 'https://blog.duaneleem.com/'
+        },
+        {
+          text: 'Highlights Blog',
+          href: '/blog'
+        }
+    ]},
     { text: 'Github', href: 'https://github.com/duaneleem' },
   ],
   actions: [{ text: 'LinkedIn', href: 'http://www.linkedin.com/in/duaneleem', target: '_blank' }],
