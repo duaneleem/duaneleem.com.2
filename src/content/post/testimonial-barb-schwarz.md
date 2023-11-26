@@ -1,5 +1,5 @@
 ---
-publishDate: 2023-10-17T00:00:00Z
+publishDate: 2023-04-13T00:00:00Z
 title: Testimonial by Barb Schwarz, Inventor of Home Staging
 excerpt: There are not enough Great words to describe Duane Leem and his Extraordinary Talented work.
 image: https://d1xrp9zhb3ks3c.cloudfront.net/web/duaneleem/images/version-2/blog-testimonial-dalle-barbschwarz.jpg
