@@ -2,7 +2,7 @@
 publishDate: 2023-04-23T00:00:00Z
 title: Testimonial by Joanne Bradley, DTM
 excerpt: Duane Leem excels in tech and leadership. His strategic skillset enriched Toastmasters' online events. Highly recommend.
-image: https://images.unsplash.com/photo-1516996087931-5ae405802f9f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80
+image: https://d1xrp9zhb3ks3c.cloudfront.net/web/duaneleem/images/version-2/blog-testimonial-dalle-joannebradley-900x506.webp
 category: Testimonials
 tags:
   - toastmasters
