@@ -178,8 +178,8 @@ We will let You know via email and/or a prominent notice on Our Service, prior t
 
 You are advised to review this Privacy Policy periodically for any changes. Changes to this Privacy Policy are effective when they are posted on this page.
 
-## Contact Us
+## Contact Page
 
-If you have any questions about this Privacy Policy, You can contact us:
+If you have any questions about this Privacy Policy, You can contact me:
 
-- By email: somecoolemail@domain.com
+- [By Contact Page](https://blog.duaneleem.com/contact-duane/)
