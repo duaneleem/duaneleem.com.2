@@ -5,7 +5,7 @@ import Hero from '~/components/widgets/Hero.astro';
 import CallToAction from '~/components/widgets/CallToAction.astro';
 
 const metadata = {
-  title: 'Product Details Landing Page Demo',
+  title: 'Kubernetes WordPress',
 };
 ---
 
@@ -16,26 +16,19 @@ const metadata = {
     tagline="Project Details"
     title="Kubernetes WordPress"
     subtitle="Making WordPress Scalable"
-    actions={[
-      { variant: 'primary', text: 'Call to Action', href: '#', icon: 'tabler:square-rounded-arrow-right' },
-      { text: 'Learn more', href: '#' },
-    ]}
-    image={{
-      src: 'https://d1xrp9zhb3ks3c.cloudfront.net/web/duaneleem/images/version-2/project-kubernetes-wordpress.webp',
-      alt: 'A spotlight on a product. Product Details Landing Page Demo',
-    }}
   />
 
+  <!-- Body ******************* -->
+  <p>This is a test.</p>
+
+  <!-- CallToAction Widget *********** -->
   <CallToAction
-    title="Coming soon"
-    subtitle="We are working on the content of these demo pages. You will see them very soon. Stay tuned Stay tuned!"
-    actions={[
-      {
-        variant: 'primary',
-        text: 'Download Template',
-        href: 'https://github.com/onwidget/astrowind',
-        icon: 'tabler:download',
-      },
-    ]}
+    title="Let's Collaborate to Bring Your Vision to Life!"
+    subtitle="Ready to turn your vision into a fully realized, production-grade application?"
+    actions={[{
+      variant:"primary",
+      text: 'Contact Me',
+      href: 'https://blog.duaneleem.com/contact-duane/',
+    }]}
   />
 </Layout>
