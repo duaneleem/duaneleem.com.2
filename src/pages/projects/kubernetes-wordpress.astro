@@ -3,6 +3,7 @@ import Layout from '~/layouts/ProjectsLayout.astro';
 
 import Hero from '~/components/widgets/Hero.astro';
 import CallToAction from '~/components/widgets/CallToAction.astro';
+import Content from '~/components/widgets/Content.astro';
 
 const metadata = {
   title: 'Kubernetes WordPress',
@@ -19,7 +20,39 @@ const metadata = {
   />
 
   <!-- Body ******************* -->
-  <p>This is a test.</p>
+  <Content
+    id="about"
+    columns={3}
+    items={[
+      {
+        icon: 'tabler:brand-github',
+        callToAction: {
+          target: '_blank',
+          text: 'GitHub',
+          href: 'https://github.com/duaneleem',
+        },
+      }
+    ]}
+    image={{
+      src: 'https://blog.duaneleem.com/wp-content/uploads/2023/10/Profile-20230718-Duane-Leem.jpeg',
+      alt: 'Duane Leem, PMP',
+    }}
+  >
+    <Fragment slot="content">
+      <h3 class="text-2xl font-bold tracking-tight dark:text-white sm:text-3xl mb-2">The Problem</h3>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque purus mauris, eleifend vitae pulvinar non, pretium eget tellus. Nullam aliquam elementum augue, sed viverra metus finibus nec. Proin lacinia elit vel ipsum laoreet laoreet. Ut mattis in nisl rutrum feugiat. Duis orci sapien, efficitur id metus in, porta scelerisque dui. Ut egestas luctus leo, vel euismod nibh suscipit et. Cras vulputate risus ac odio ultrices commodo. Fusce quis urna erat. Curabitur in arcu nibh. Curabitur suscipit quam eu nisl mollis volutpat.  
+      </p>
+      <br />
+      <p>
+        Donec ac lorem eget mi molestie iaculis. Suspendisse iaculis ipsum vitae libero auctor finibus. Nunc eget fermentum nibh, vitae finibus dui. Aliquam vitae dui egestas, ornare mi vitae, ultrices quam. 
+      </p>
+    </Fragment>
+
+    <!-- <Fragment slot="bg">
+      <div class="absolute inset-0 bg-blue-50 dark:bg-transparent"></div>
+    </Fragment> -->
+  </Content>
 
   <!-- CallToAction Widget *********** -->
   <CallToAction
