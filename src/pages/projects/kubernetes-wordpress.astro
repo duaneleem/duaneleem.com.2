@@ -19,9 +19,11 @@ const metadata = {
     subtitle="Making WordPress Scalable"
   />
 
-  <!-- Body ******************* -->
+  <!-- =======================================================
+    The Problem 
+  ======================================================= -->
   <Content
-    id="about"
+    id="problem"
     columns={3}
     items={[
       {
@@ -52,6 +54,44 @@ const metadata = {
     <!-- <Fragment slot="bg">
       <div class="absolute inset-0 bg-blue-50 dark:bg-transparent"></div>
     </Fragment> -->
+  </Content>
+
+  <!-- =======================================================
+    The Solution 
+  ======================================================= -->
+  <Content
+    isReversed
+    id="solution"
+    columns={3}
+    items={[
+      {
+        icon: 'tabler:brand-github',
+        callToAction: {
+          target: '_blank',
+          text: 'GitHub',
+          href: 'https://github.com/duaneleem',
+        },
+      }
+    ]}
+    image={{
+      src: 'https://d1xrp9zhb3ks3c.cloudfront.net/web/duaneleem/images/version-2/project-kubernetes-the-problem.webp',
+      alt: 'Duane Leem, PMP',
+    }}
+  >
+    <Fragment slot="content">
+      <h3 class="text-2xl font-bold tracking-tight dark:text-white sm:text-3xl mb-2">The Solution</h3>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque purus mauris, eleifend vitae pulvinar non, pretium eget tellus. Nullam aliquam elementum augue, sed viverra metus finibus nec. Proin lacinia elit vel ipsum laoreet laoreet. Ut mattis in nisl rutrum feugiat. Duis orci sapien, efficitur id metus in, porta scelerisque dui. Ut egestas luctus leo, vel euismod nibh suscipit et. Cras vulputate risus ac odio ultrices commodo. Fusce quis urna erat. Curabitur in arcu nibh. Curabitur suscipit quam eu nisl mollis volutpat.  
+      </p>
+      <br />
+      <p>
+        Donec ac lorem eget mi molestie iaculis. Suspendisse iaculis ipsum vitae libero auctor finibus. Nunc eget fermentum nibh, vitae finibus dui. Aliquam vitae dui egestas, ornare mi vitae, ultrices quam, ornare vitae. 
+      </p>
+    </Fragment>
+
+    <Fragment slot="bg">
+      <div class="absolute inset-0 bg-blue-50 dark:bg-transparent"></div>
+    </Fragment>
   </Content>
 
   <!-- CallToAction Widget *********** -->
