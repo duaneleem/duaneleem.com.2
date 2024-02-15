@@ -6,7 +6,16 @@ export const headerData = {
     { text: 'About', href: '/#about' },
     { text: 'Resume', href: '/#resume' },
     { text: 'Education', href: '/#education' },
-    { text: 'Portfolio', href: '/#portfolio' },
+    { text: 'Portfolio', links: [
+      {
+        text: 'Skills',
+        href: '/#skills'
+      },
+      {
+        text: 'Projects',
+        href: '/#projects'
+      }
+    ]},
     { text: 'Blog', links: [
         {
           text: 'Knowledgebase Blog',
