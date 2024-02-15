@@ -167,6 +167,14 @@ const metadata = {
         `,
         icon: 'tabler:school',
       },
+      {
+        title: `Cloud & DevOps: Continuous Transformation <br />
+          <span class="font-normal">MIT Professional Education</span> <br />
+          <span class="text-sm font-normal">Program Completion January 2023</span> <br />
+          <span class="text-sm font-normal">🔗 <a href='https://blog.duaneleem.com/mit-cloud-devops-continuous-transformation/' target=''>Certificate of Completion</a></span>
+        `,
+        icon: 'tabler:school',
+      },
     ]}
     classes={{ container: 'max-w-3xl' }}
   />
@@ -174,6 +182,7 @@ const metadata = {
   <!-- Features3 Widget ************** -->
 
   <Features3
+    id="skills"
     title="Skills"
     subtitle="Discover the proficiencies that allow me to bridge technology teamwork and innovation."
     columns={3}
@@ -221,7 +230,7 @@ const metadata = {
   <!-- Content Widget **************** -->
 
   <Content
-    id="portfolio"
+    id="projects"
     title="Visions Realized"
     subtitle="Successfully navigating through complex project lifecycles, each initiative moved from ideation to completion. Leveraging Agile methodologies and DevOps practices, and benefiting from cross-functional team collaboration, every project met or exceeded quality and timeline expectations. This section showcases these accomplishments."
     isReversed
@@ -245,13 +254,15 @@ const metadata = {
       src: 'https://d1xrp9zhb3ks3c.cloudfront.net/web/duaneleem/images/version-2/project-kubernetes-wordpress.webp',
       alt: 'Tech Design Image',
     }}
-    callToAction={{
+  >
+  
+    <!-- callToAction={{
       target: '_blank',
       text: 'Go to the project',
       icon: 'tabler:chevron-right',
       href: '#',
-    }}
-  >
+    }} -->
+
     <Fragment slot="content">
       <h3 class="text-2xl font-bold tracking-tight dark:text-white sm:text-3xl mb-2">
         Kubernetes WordPress<br /><span class="text-2xl">Making WordPress Scalable</span>
@@ -288,12 +299,6 @@ const metadata = {
     image={{
       src: 'https://d1xrp9zhb3ks3c.cloudfront.net/web/duaneleem/images/version-2/project-marketo-integration-2.webp',
       alt: 'Fashion e-commerce Image',
-    }}
-    callToAction={{
-      target: '_blank',
-      text: 'Go to the project',
-      icon: 'tabler:chevron-right',
-      href: '#',
     }}
   >
     <Fragment slot="content">
@@ -333,12 +338,6 @@ const metadata = {
     image={{
       src: 'https://d1xrp9zhb3ks3c.cloudfront.net/web/duaneleem/images/version-2/project-genesis.webp',
       alt: 'Project Genesis',
-    }}
-    callToAction={{
-      target: '_blank',
-      text: 'Go to the project',
-      icon: 'tabler:chevron-right',
-      href: '#',
     }}
   >
     <Fragment slot="content">
