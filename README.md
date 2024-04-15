@@ -1,3 +1,14 @@
+# DuaneLeem.com 2 - AstroJS using AstroWind
+
+## Build Process
+
+1. Create Feature Branch
+2. PR to `dev` branch.
+3. PR to `main` branch.
+
+GitHub Actions will do the rest of the build & deployment process.
+
+
 # 🚀 AstroWind
 
 <img src="https://raw.githubusercontent.com/onwidget/.github/main/resources/astrowind/lighthouse-score.png" align="right"
