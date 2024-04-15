@@ -10,7 +10,8 @@
     "preview": "astro preview",
     "astro": "astro",
     "format": "prettier -w .",
-    "lint:eslint": "eslint . --ext .js,.ts,.astro"
+    "lint:eslint": "eslint . --ext .js,.ts,.astro",
+    "build-deploy": "astro build && rm -rf docs/* && mv ./dist/* ./docs"
   },
   "dependencies": {
     "@astrojs/rss": "^3.0.0",
