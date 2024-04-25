@@ -6,7 +6,7 @@
 2. PR to `dev` branch.
 3. PR to `main` branch.
 
-GitHub Actions will do the rest of the build & deployment process.
+GitHub Actions will do the rest of the build & deployment process based on `/.github/workflows/deploy.yml`
 
 
 # 🚀 AstroWind
