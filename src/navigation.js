@@ -37,7 +37,7 @@ export const footerData = {
       title: 'Certifications',
       links: [
         { text: 'Masters in Information Technology Management', target: '_blank', href: 'https://d1xrp9zhb3ks3c.cloudfront.net/web/duaneleem/images/achievements/201504-masters-itm.jpg' },
-        { text: 'Project Management Professional, PMP', href: 'https://blog.duaneleem.com/change-aws-rds-instance-size/' },
+        { text: 'Project Management Professional, PMP', href: 'https://blog.duaneleem.com/category/certified/' },
         { text: 'Kubernetes: CKAD', href: 'https://blog.duaneleem.com/certified-kubernetes-application-developer-i-passed/' },
         { text: 'MLOps Specialization', href: 'https://blog.duaneleem.com/machine-learning-engineering-for-production-mlops-specialization/' },
         { text: 'AI for Trading', href: 'https://blog.duaneleem.com/graduated-udacity-ai-for-trading/' },
