@@ -47,6 +47,7 @@ export const footerData = {
     {
       title: 'Recent Blog Posts',
       links: [
+        // Add DTM Blog Post
         { text: 'Change AWS RDS ...', href: 'https://blog.duaneleem.com/change-aws-rds-instance-size/' },
         { text: 'Brentwood Tech MeetUp', href: 'https://blog.duaneleem.com/brentwood-community-center-software-engineer-meetup/' },
         { text: 'My DevOps Journey', href: 'https://blog.duaneleem.com/5-year-reflection-2023/' },
