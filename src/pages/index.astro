@@ -14,6 +14,15 @@ import { headerData } from '~/navigation';
 
 const metadata = {
   title: 'Duane Leem | DevOps Engineer',
+  description: 'Senior DevOps Engineer with 20+ years experience in IT, specializing in AWS, Kubernetes, and software engineering. View my portfolio and experience.',
+  openGraph: {
+    url: 'https://duaneleem.com',
+    siteName: 'Duane Leem',
+    type: 'website',
+    images: [{
+      url: 'https://blog.duaneleem.com/wp-content/uploads/2023/10/Profile-20230718-Duane-Leem.jpeg'
+    }]
+  }
 };
 ---
 
@@ -29,7 +38,10 @@ const metadata = {
     id="hero"
     title="Duane Leem"
     tagline="DevOps Engineer"
-    actions={[{ variant: "primary", target: '', text: 'About Me', href: '#about' }]}
+    actions={[
+      { variant: "primary", target: '', text: 'About Me', href: '#about' },
+      { variant: "secondary", target: '', text: 'View Projects', href: '#projects' }
+    ]}
   >
     <Fragment slot="subtitle">
       With over two decades in IT, I've been a key resource in managing complex systems and 
@@ -297,6 +309,7 @@ const metadata = {
     image={{
       src: 'https://d1xrp9zhb3ks3c.cloudfront.net/web/duaneleem/images/version-2/project-kubernetes-wordpress.webp',
       alt: 'Tech Design Image',
+      loading: "lazy"
     }}
   >
   
@@ -343,6 +356,7 @@ const metadata = {
     image={{
       src: 'https://d1xrp9zhb3ks3c.cloudfront.net/web/duaneleem/images/version-2/project-marketo-integration-2.webp',
       alt: 'Fashion e-commerce Image',
+      loading: "lazy"
     }}
   >
     <Fragment slot="content">
@@ -382,6 +396,7 @@ const metadata = {
     image={{
       src: 'https://d1xrp9zhb3ks3c.cloudfront.net/web/duaneleem/images/version-2/project-genesis.webp',
       alt: 'Project Genesis',
+      loading: "lazy"
     }}
   >
     <Fragment slot="content">
@@ -415,6 +430,7 @@ const metadata = {
         image: {
           src: 'https://d1xrp9zhb3ks3c.cloudfront.net/web/duaneleem/images/version-2/testimonials-export-sharen.webp',
           alt: 'Sharen Hamasaki',
+          loading: "lazy"
         },
       },
       {
@@ -432,6 +448,7 @@ const metadata = {
         image: {
           src: 'https://d1xrp9zhb3ks3c.cloudfront.net/web/duaneleem/images/version-2/testimonials-export-joanne-bradley.webp',
           alt: 'Joann Bradley, DTM',
+          loading: "lazy"
         },
       },
       {
@@ -447,6 +464,7 @@ const metadata = {
         image: {
           src: 'https://d1xrp9zhb3ks3c.cloudfront.net/web/duaneleem/images/version-2/testimonials-export-barb-schwarz.webp',
           alt: 'Barb Schwarz, Inventor of Home Staging',
+          loading: "lazy"
         },
       },
       {
@@ -461,6 +479,7 @@ const metadata = {
         image: {
           src: 'https://d1xrp9zhb3ks3c.cloudfront.net/web/duaneleem/images/version-2/testimonials-export-sebastien-morel.webp',
           alt: 'Alex Foster Image',
+          loading: "lazy"
         },
       },
       {
@@ -474,6 +493,7 @@ const metadata = {
         image: {
           src: 'https://d1xrp9zhb3ks3c.cloudfront.net/web/duaneleem/images/version-2/testimonials-export-michelle-galvez.webp',
           alt: 'Michelle Galvez Image',
+          loading: "lazy"
         },
       },
       {
@@ -491,6 +511,7 @@ const metadata = {
         image: {
           src: 'https://d1xrp9zhb3ks3c.cloudfront.net/web/duaneleem/images/version-2/testimonials-export-gary-mckinsey.webp',
           alt: 'Gary McKinsey Image',
+          loading: "lazy"
         },
       },
     ]}
