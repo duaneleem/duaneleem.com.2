@@ -89,7 +89,7 @@ export const footerData = {
     { ariaLabel: 'Github', icon: 'tabler:brand-github', href: 'https://github.com/duaneleem' },
   ],
   footNote: `
-    <span class="w-5 h-5 md:w-6 md:h-6 md:-mt-0.5 bg-cover mr-1.5 rtl:mr-0 rtl:ml-1.5 float-left rtl:float-right rounded-sm bg-[url(https://blog.duaneleem.com/wp-content/uploads/2023/08/Logo-PMP-2021-150x150.png)]"></span>
+    <span class="w-5 h-5 md:w-6 md:h-6 md:-mt-0.5 bg-cover mr-1.5 rtl:mr-0 rtl:ml-1.5 float-left rtl:float-right rounded-sm bg-[url(https://blog.duaneleem.com/wp-content/uploads/2024/04/Logo-20240410-CISSP.png)]"></span>
     Copyright &copy; <a class="text-blue-600 hover:underline dark:text-gray-200" href="https://blog.duaneleem.com/contact-duane/"> Duane Leem</a> · All rights reserved.
   `,
 };
